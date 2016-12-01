@@ -1,0 +1,215 @@
+body{
+    |background: url('../docs/prueba.png') no-repeat;
+    |background-size: cover;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*------------------------------------------------------>> HEADER <<------------------------------------------------------*/
+
+header{
+    background-color: #f8f8f8;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    color: #777b83
+}
+
+.logo{
+    font-size: 1.3em;
+    margin-top: -0.1em;
+    padding-left: 16px;
+}
+
+.menu{
+    padding-right: 4px
+}
+
+header li{
+    display: inline-block;
+    padding: 0 4px;
+    margin: 0 8px;
+}
+
+
+/*------------------------------------------------------>> SECTION HERO <<------------------------------------------------------*/
+
+.hero{
+    background: url('../img/home.jpg') no-repeat;
+    background-size:cover;
+    background-position:0% 15%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.caja{
+    |display: table;
+    |table-layout: fixed;
+    width: 100%;
+    |height: 34.8em;
+}
+
+.titulo{
+    |display: table-cell;
+    |vertical-align: middle;
+    text-align: center;
+    margin: 160px 0 210px 0;
+}
+
+.titulo h1{
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.titulo h4{
+    font-size: 1.1em;
+}
+
+.boton{
+    margin: 25px 0;
+}
+
+.hero .boton a{
+    font-size: 1.3em;
+    padding: 14px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/*------------------------------------------------------>> SECTION DOCUMENTAL <<------------------------------------------------------*/
+
+.documental{
+    padding-top: 91px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.documental h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.1em;
+}
+
+.documental .texto h3{
+    text-transform: uppercase;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.documental .texto p{
+    margin-top: 25px;
+}
+
+.documental .youtube{
+    margin-top: 33px;
+}
+
+
+/*------------------------------------------------------>> SECTION HACKATHON <<------------------------------------------------------*/
+
+.hackathon{
+    padding-top: 59px;
+    padding-bottom: 90px;
+    background-color: #ffff00;
+}
+
+.hackathon .imagen{
+    text-align: center;
+}
+
+.hackathon img{
+    width: 90%;
+}
+
+
+.hackathon h3{
+    text-transform: uppercase;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.hackathon p:nth-child(2){
+    margin-top: 26px;
+}
+
+.hackathon .boton{
+    margin-top: -1px;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.hackathon a{
+    font-size: 1.3em;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/*------------------------------------------------------>> SECTION CONTACTO <<------------------------------------------------------*/
+
+.contacto{
+    background: url('../img/made_with_code.jpg') no-repeat;
+    |background-size: 57%;
+    background-position: 13% center;
+    |background-position: 13% 84%;
+    |opacity: 0.3;
+    padding-bottom: 30px;
+}
+
+.contacto .contact{
+    margin-top: 75px;
+    background-color: #fff;
+}
+
+.contact h3{
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.contact p:nth-child(2){
+    margin-top: 18px;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.contact .formulario{
+    margin-top: 17px;
+}
+
+.formulario *{
+    margin-bottom: 14px;
+}
+
+.formulario .boton{
+    padding: 12px 0;
+}
+
+.formulario a{
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+}
+
+
+/*------------------------------------------------------>> SECTION FOOTER <<------------------------------------------------------*/
+
+
+footer{
+    |padding-bottom: 40px;
+    background-color: #4497a3;
+}
+
+footer p{
+    padding: 30px 0;
+    color: #fff;
+}
+
+footer a{
+    color: #ffff00;
+}
