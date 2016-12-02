@@ -1,3 +1,4 @@
+
 body{
     |background: url('../docs/prueba.png') no-repeat;
     |background-size: cover;
@@ -10,7 +11,7 @@ header{
     background-color: #f8f8f8;
     padding-top: 15px;
     padding-bottom: 4px;
-    color: #777b83
+    color: #777b83;
 }
 
 .logo{
@@ -20,7 +21,8 @@ header{
 }
 
 .menu{
-    padding-right: 4px
+    padding-right: 4px;
+    margin-top: -15px;
 }
 
 header li{
@@ -34,6 +36,13 @@ header a{
     padding: 5px 4px;
 }
 
+.hamburguer{
+    margin-top: -10px;
+}
+
+header button{
+    font-size: 1.3em;
+}
 
 /*------------------------------------------------------>> SECTION HERO <<------------------------------------------------------*/
 

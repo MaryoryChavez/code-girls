@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Coder Girl</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
@@ -15,25 +17,30 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <p class="logo">Code Girls</p>
-                </div>
-                <div class="col-sm-6 text-right">
-                    <div class="menu">
-                        <ul class="menu">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Documental</a></li>
-                            <li><a href="#">Hackathon</a></li>
-                            <li><a href="">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
+  <header class="navbar navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="glyphicon glyphicon-menu-hamburger nave navbar-toggle collapsed hamburguer" data-toggle="collapse" data-target="#navigation">
+          </button>
+          <p class="logo">Code Girls</p>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="menu collapse navbar-collapse" id="navigation">
+            <ul class="menu nav navbar-nav navbar-right">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Documental</a></li>
+                <li><a href="#">Hackathon</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+      </div>
     </header>
+
+
+
 
     <section class="hero">
         <div class="container">
