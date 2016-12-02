@@ -1,0 +1,10 @@
+@media screen and (max-width: 991px){
+
+	.contacto{
+		background: #fff;
+	}
+
+    .contacto .contact{
+        margin-top: 4px;
+    }
+}
